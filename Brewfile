@@ -17,6 +17,10 @@ brew "jpeg-xl"
 brew "aom"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
@@ -25,14 +29,12 @@ brew "bat-extras"
 brew "boost"
 # C library implementing the SSH2 protocol
 brew "libssh2"
-# Get a file from an HTTP, HTTPS or FTP server
-brew "curl"
+# Libraries to talk to Microsoft SQL Server and Sybase databases
+brew "freetds"
 # Graphics library to dynamically manipulate images
 brew "gd"
-# Network authentication protocol
-brew "krb5"
 # Postgres C API library
-brew "libpq"
+brew "libpq", link: true
 # General-purpose scripting language
 brew "php"
 # Dependency Manager for PHP
@@ -53,6 +55,8 @@ brew "wangle"
 brew "fbthrift"
 # Thrift functions for querying information from a service
 brew "fb303"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Platform built on V8 to build network applications
 brew "node"
 # Firebase command-line tools
@@ -65,8 +69,6 @@ brew "gh"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
@@ -79,6 +81,8 @@ brew "neofetch"
 brew "nvm"
 # Development kit for the Java programming language
 brew "openjdk"
+# Development kit for the Java programming language
+brew "openjdk@17"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Python version management
@@ -167,6 +171,8 @@ cask "ngrok"
 cask "notion"
 # Retro video game emulation
 cask "openemu"
+# Desktop virtualization software
+cask "parallels"
 # Archive manager for data compression and backups
 cask "rar"
 # Standalone app for debugging React Native apps
@@ -226,6 +232,7 @@ vscode "christian-kohler.path-intellisense"
 vscode "Dart-Code.dart-code"
 vscode "Dart-Code.flutter"
 vscode "dbaeumer.vscode-eslint"
+vscode "dracula-theme.theme-dracula"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
@@ -233,7 +240,9 @@ vscode "expo.vscode-expo-tools"
 vscode "firsttris.vscode-jest-runner"
 vscode "GitHub.codespaces"
 vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
 vscode "GitHub.vscode-pull-request-github"
+vscode "HookyQR.minify"
 vscode "jasonnutter.search-node-modules"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "ms-vsliveshare.vsliveshare-pack"

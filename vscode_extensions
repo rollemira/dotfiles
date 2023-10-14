@@ -6,6 +6,7 @@ christian-kohler.path-intellisense
 Dart-Code.dart-code
 Dart-Code.flutter
 dbaeumer.vscode-eslint
+dracula-theme.theme-dracula
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 esbenp.prettier-vscode
@@ -13,7 +14,9 @@ expo.vscode-expo-tools
 firsttris.vscode-jest-runner
 GitHub.codespaces
 GitHub.copilot
+GitHub.copilot-chat
 GitHub.vscode-pull-request-github
+HookyQR.minify
 jasonnutter.search-node-modules
 ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-pack

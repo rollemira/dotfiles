@@ -27,5 +27,8 @@ function exists() {
   # command -v $1 1>/dev/null 2>/dev/null
 }
 export ANDROID_SDK=/Users/ira/Library/Android/sdk
+export ANDROID_HOME=/Users/ira/Library/Android/sdk
 export PATH=/Users/ira/Library/Android/sdk/platform-tools:$PATH
 export PATH=/opt/homebrew/Caskroom/ngrok/3.3.1,gRmfNMWCVKD,a:$PATH
+export PATH=/opt/homebrew/opt/openjdk@17/bin:$PATH
+export PATH=/opt/homebrew/opt/libpq/bin:$PATH
